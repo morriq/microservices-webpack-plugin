@@ -5,6 +5,20 @@ It uses [unpkg](https://unpkg.com) to load npm packages.
 
 ## Installation
 
+`npm install -D microservices-webpack-plugin`
+
+Let's try with `react`.
+Modify your microservice's `webpack.config`:
+- Add to externals `react: 'react'`
+- `output.libraryTarget` must be `amd`
+- add to `plugins`
+```
+new MicroservicesWebpackPlugin([
+  { name: 'react', path: `umd/react.production.min.js` },
+])
+```
+
+
 ## Scenario
 
 You're using microservices with solutions such as [Tailor](https://github.com/zalando/tailor/).
@@ -32,7 +46,5 @@ Your chunk has required dependency `some node_modules dependency` and first of a
 ## TODO
 - [ ] automatically add defined libraries to `externals`
 - [ ] unit tests
-- [ ] npm publish
-- [ ] installation
 
 Inspiration [Webpack CDN Plugin](https://github.com/van-nguyen/webpack-cdn-plugin)
