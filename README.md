@@ -1,11 +1,11 @@
 # microservices-webpack-plugin
 
 I created this `plugin` to solve problem with repeating packages from `node_modules` in microservices' chunks.
-It uses [unpkg][https://unpkg.com] to load npm packages.
+It uses [unpkg](https://unpkg.com) to load npm packages.
 
 ## Scenario
 
-You're using microservices with solutions such as [Tailor][https://github.com/zalando/tailor/
+You're using microservices with solutions such as [Tailor](https://github.com/zalando/tailor/)
 ].
 
 You have many microservices which relays on the same version of `react`.
@@ -35,4 +35,4 @@ Your chunk has required dependency `react` and first of all it will try load `re
 - [ ] unit tests
 - [ ] npm publish
 
-Inspiration [Webpack CDN Plugin][https://github.com/van-nguyen/webpack-cdn-plugin]
+Inspiration [Webpack CDN Plugin](https://github.com/van-nguyen/webpack-cdn-plugin)
