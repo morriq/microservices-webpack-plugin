@@ -5,17 +5,16 @@ It uses [unpkg](https://unpkg.com) to load npm packages.
 
 ## Scenario
 
-You're using microservices with solutions such as [Tailor](https://github.com/zalando/tailor/)
-].
+You're using microservices with solutions such as [Tailor](https://github.com/zalando/tailor/).
 
-You have many microservices which relays on the same version of `react`.
+You have many microservices which relays on the same version of `some node_modules dependency`.
 
-You wonder how to don't load `react` in every chunk.
+You wonder how to don't load `some node_modules dependency` in every chunk.
 
 ## Problem
 
 Tailor sends client application to browser via `headers` (more specifically via `Link`). And later it uses `require.js` to execute in browser.
-It expects that `react` is inside client application or was loaded earlier.
+It expects that `some node_modules dependency` is inside client application or was loaded earlier.
 To solve that you could:
 
 > add required libraries to tailor's template.
@@ -24,9 +23,9 @@ To solve that you could:
 
 It's not the best approach because it makes invisible relation between microservices
 
-- write in `react` into `Header.Link`
+- write in `some node_modules dependency` into `Header.Link`
 
-Your chunk has required dependency `react` and first of all it will try load `react` from tailor's host
+Your chunk has required dependency `some node_modules dependency` and first of all it will try load `some node_modules dependency` from tailor's host
 
 ## Load once, use multiple times
 
