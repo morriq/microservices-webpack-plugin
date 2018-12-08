@@ -1,5 +1,7 @@
-const { resolve } = require('path')
-const MicroservicesWebpackPlugin = require('../../index.js')
+const { resolve } = require('path');
+
+const MicroservicesWebpackPlugin = require('../../index.js');
+
 
 module.exports = {
 	entry: resolve(__dirname, 'index.js'),
@@ -15,4 +17,4 @@ module.exports = {
 			{ name: 'react', path: `umd/react.production.min.js` },
 		])
 	]
-}
+};

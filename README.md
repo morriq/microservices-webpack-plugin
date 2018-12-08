@@ -3,6 +3,8 @@
 I created this `plugin` to solve problem with repeating packages from `node_modules` in microservices' chunks.
 It uses [unpkg](https://unpkg.com) to load npm packages.
 
+## Installation
+
 ## Scenario
 
 You're using microservices with solutions such as [Tailor](https://github.com/zalando/tailor/).
@@ -27,11 +29,10 @@ It's not the best approach because it makes invisible relation between microserv
 
 Your chunk has required dependency `some node_modules dependency` and first of all it will try load `some node_modules dependency` from tailor's host
 
-## Load once, use multiple times
-
 ## TODO
 - [ ] automatically add defined libraries to `externals`
 - [ ] unit tests
 - [ ] npm publish
+- [ ] installation
 
 Inspiration [Webpack CDN Plugin](https://github.com/van-nguyen/webpack-cdn-plugin)
