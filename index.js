@@ -42,7 +42,7 @@ class MicroservicesWebpackPlugin {
 		compilation.assets = Object.keys(compilation.assets)
 			.map((fileName) => {
 				if (!fileName.includes('.js')) {
-					throw new Error(`Unsupported extension in ${path}`);
+					return {[fileName]: compilation.assets[fileName]};
 				}
 
 				const value = [
@@ -60,5 +60,4 @@ class MicroservicesWebpackPlugin {
 	}
 }
 
-// @todo add to externals, remove from chunk
 module.exports = MicroservicesWebpackPlugin;
