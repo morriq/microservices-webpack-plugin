@@ -6,9 +6,43 @@
   "scripts": {
     "build-examples": "webpack --config examples/umd/webpack.config.js"
   },
-  "keywords": [],
-  "author": "Dawid Winiarczyk<dawid.winiarczyk@gmail.com>",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morriq/microservices-webpack-plugin.git"
+  },
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "keywords": [
+    "webpack",
+    "tailor",
+    "microservices",
+    "externals",
+    "script",
+    "include",
+    "plugin",
+    "cdn",
+    "production",
+    "development"
+  ],
+  "author": {
+    "name": "Dawid Winiarczyk",
+    "email": "dawid.winiarczyk@gmail.com",
+    "url": "https://github.com/morriq"
+  },
+  "contributors": [
+    {
+      "name": "Dawid Winiarczyk",
+      "email": "dawid.winiarczyk@gmail.com",
+      "url": "https://github.com/morriq"
+    }
+  ],
+  "homepage": "https://github.com/morriq/microservices-webpack-plugin",
+  "bugs": {
+    "url": "https://github.com/morriq/microservices-webpack-plugin/issues"
+  },
+  "license": "MIT",
   "devDependencies": {
     "webpack": "4.26.1",
     "webpack-cli": "3.1.2"

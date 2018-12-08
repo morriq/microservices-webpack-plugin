@@ -1,6 +1,6 @@
 # microservices-webpack-plugin
 
-I created this `plugin` to solve problem with repeating packages from `node_modules` in microservices' chunks.
+This `plugin` solves problem with repeating packages from `node_modules` in microservices' chunks.
 It uses [unpkg](https://unpkg.com) to load npm packages.
 
 ## Installation
