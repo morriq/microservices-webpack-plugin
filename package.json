@@ -1,0 +1,20 @@
+{
+  "name": "webpack-microservices-vendors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-examples": "webpack --config examples/umd/webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.26.1",
+    "webpack-cli": "3.1.2"
+  },
+  "dependencies": {
+    "react": "16.6.3"
+  }
+}
