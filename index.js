@@ -36,6 +36,7 @@ class MicroservicesWebpackPlugin {
 
 	apply(compiler) {
 		compiler.hooks.emit.tapAsync(MicroservicesWebpackPlugin.name, this.tapAsync.bind(this))
+    compiler.options.externals = this.modules.map(({ name }) => name)
 	}
 
 	tapAsync(compilation, callback) {

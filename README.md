@@ -43,8 +43,4 @@ It's not the best approach because it makes invisible relation between microserv
 
 Your chunk has required dependency `some node_modules dependency` and first of all it will try load `some node_modules dependency` from tailor's host
 
-## TODO
-- [ ] automatically add defined libraries to `externals`
-- [ ] unit tests
-
 Inspiration [Webpack CDN Plugin](https://github.com/van-nguyen/webpack-cdn-plugin)

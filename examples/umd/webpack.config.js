@@ -5,9 +5,6 @@ const MicroservicesWebpackPlugin = require('../../index.js');
 
 module.exports = {
 	entry: resolve(__dirname, 'index.js'),
-	externals: {
-		react: 'react'
-	},
 	output: {
 		path: resolve(__dirname, 'dist'),
 		libraryTarget: 'amd'
