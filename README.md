@@ -9,7 +9,6 @@ It uses [unpkg](https://unpkg.com) to load npm packages.
 
 Let's try with `react`.
 Modify your microservice's `webpack.config`:
-- Add to externals `react: 'react'`
 - `output.libraryTarget` must be `amd`
 - add to `plugins`
 ```
