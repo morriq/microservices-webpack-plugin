@@ -1,5 +1,7 @@
 # microservices-webpack-plugin
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/morriq/microservices-webpack-plugin.svg)](https://greenkeeper.io/)
+
 This `plugin` solves problem with repeating packages from `node_modules` in microservices' chunks.
 It uses [unpkg](https://unpkg.com) to load npm packages.
 
