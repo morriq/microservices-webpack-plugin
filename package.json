@@ -48,6 +48,6 @@
     "webpack-cli": "3.2.2"
   },
   "dependencies": {
-    "react": "16.8.3"
+    "react": "16.8.4"
   }
 }
