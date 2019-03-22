@@ -10,8 +10,10 @@ module.exports = {
 		libraryTarget: 'amd'
 	},
 	plugins: [
-		new MicroservicesWebpackPlugin([
-			{ name: 'react', path: `umd/react.production.min.js` },
-		])
+		new MicroservicesWebpackPlugin({
+      modules: [
+        { name: 'react', path: `umd/react.production.min.js` },
+      ]
+    })
 	]
 };
