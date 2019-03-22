@@ -2,11 +2,9 @@ const { join } = require('path');
 const { RawSource } = require('webpack-sources');
 
 class MicroservicesWebpackPlugin {
-	constructor(
-		modules
-	) {
-		this.modules = modules || [];
-		this.url = 'https://unpkg.com/:name@:version/:path';
+	constructor(config = {}) {
+		this.modules = config.modules || [];
+		this.url = config.url || 'https://unpkg.com/:name@:version/:path';
 		this.paramsRegex = /:([a-z]+)/gi;
 		this.node_modules = join(process.cwd(), 'node_modules');
 
