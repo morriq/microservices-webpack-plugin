@@ -14,9 +14,11 @@ Modify your microservice's `webpack.config`:
 - `output.libraryTarget` must be `amd`
 - add to `plugins`
 ```
-new MicroservicesWebpackPlugin([
-  { name: 'react', path: `umd/react.production.min.js` },
-])
+new MicroservicesWebpackPlugin({
+  modules: [
+    { name: 'react', path: `umd/react.production.min.js` },
+  ]
+})
 ```
 
 
