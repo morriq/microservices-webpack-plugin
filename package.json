@@ -3,9 +3,6 @@
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build-examples": "webpack --config examples/umd/webpack.config.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/morriq/microservices-webpack-plugin.git"
@@ -44,10 +41,16 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "webpack": "4.29.6",
-    "webpack-cli": "3.2.2"
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/github": "^5.2.10",
+    "@semantic-release/npm": "^5.1.4",
+    "@semantic-release/release-notes-generator": "^7.1.4",
+    "conventional-changelog-eslint": "^3.0.1",
+    "jasmine": "3.4.0"
   },
-  "dependencies": {
-    "react": "16.8.3"
+  "peerDependencies": {
+    "webpack": "4.x"
   }
 }
