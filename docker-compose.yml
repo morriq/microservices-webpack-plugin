@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  plugin:
+    build:
+      context: .
+    command: tail -F anything
+    volumes:
+      - ./:/opt/app:delegated

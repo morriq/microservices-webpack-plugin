@@ -1,10 +1,10 @@
 const { resolve } = require('path');
 
-const MicroservicesWebpackPlugin = require('../../index.js');
+const MicroservicesWebpackPlugin = require('./../../lib/index.js');
 
 
 module.exports = {
-	entry: resolve(__dirname, 'index.js'),
+	entry: resolve(__dirname, 'src', 'index.js'),
 	output: {
 		path: resolve(__dirname, 'dist'),
 		libraryTarget: 'amd'

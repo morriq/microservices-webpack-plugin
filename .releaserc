@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    ["@semantic-release/commit-analyzer", {
+      "preset": "eslint"
+    }],
+    ["@semantic-release/release-notes-generator", {
+      "preset": "eslint"
+    }],
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    ["@semantic-release/git", {
+      "message": "Docs: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+    }]
+    "@semantic-release/github"
+  ]
+}
