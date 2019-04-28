@@ -10,7 +10,7 @@
     "@semantic-release/npm",
     ["@semantic-release/git", {
       "message": "Docs: Release ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-    }]
+    }],
     "@semantic-release/github"
   ]
 }
