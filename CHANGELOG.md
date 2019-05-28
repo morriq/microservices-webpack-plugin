@@ -1,3 +1,14 @@
+## [2.0.3](https://github.com/morriq/microservices-webpack-plugin/compare/v2.0.2...v2.0.3) (2019-05-28)
+
+
+### Build
+
+* Add commitlint (fixes #19) [skip ci] ([da1c560608d9813bfc49a107de8d64eb26c617bc](https://github.com/morriq/microservices-webpack-plugin/commit/da1c560608d9813bfc49a107de8d64eb26c617bc)), closes [#19](https://github.com/morriq/microservices-webpack-plugin/issues/19)
+
+### Fix
+
+* Missing production files... ([76b1b5c24e44f47bb4f3f28cabebb0da35641e8a](https://github.com/morriq/microservices-webpack-plugin/commit/76b1b5c24e44f47bb4f3f28cabebb0da35641e8a))
+
 ## [2.0.2](https://github.com/morriq/microservices-webpack-plugin/compare/v2.0.1...v2.0.2) (2019-05-27)
 
 
