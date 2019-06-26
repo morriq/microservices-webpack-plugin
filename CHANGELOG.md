@@ -1,3 +1,10 @@
+## [2.0.4](https://github.com/morriq/microservices-webpack-plugin/compare/v2.0.3...v2.0.4) (2019-06-26)
+
+
+### Fix
+
+* Lazy loaded chunk has appended define externals on the begining (#25) ([8f99c4dbaf4b3a433ff9f2b8d28486b2c9dc5307](https://github.com/morriq/microservices-webpack-plugin/commit/8f99c4dbaf4b3a433ff9f2b8d28486b2c9dc5307)), closes [#25](https://github.com/morriq/microservices-webpack-plugin/issues/25)
+
 ## [2.0.3](https://github.com/morriq/microservices-webpack-plugin/compare/v2.0.2...v2.0.3) (2019-05-28)
 
 
