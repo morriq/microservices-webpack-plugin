@@ -1,3 +1,10 @@
+## [2.0.5](https://github.com/morriq/microservices-webpack-plugin/compare/v2.0.4...v2.0.5) (2019-07-02)
+
+
+### Fix
+
+* Detecting version relays on the node_modules from process.cwd() (#27) ([7e09c2f790a26703157055a1a19567c6afddf411](https://github.com/morriq/microservices-webpack-plugin/commit/7e09c2f790a26703157055a1a19567c6afddf411)), closes [#27](https://github.com/morriq/microservices-webpack-plugin/issues/27)
+
 ## [2.0.4](https://github.com/morriq/microservices-webpack-plugin/compare/v2.0.3...v2.0.4) (2019-06-26)
 
 
