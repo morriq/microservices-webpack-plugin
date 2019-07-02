@@ -53,5 +53,8 @@
     "husky": "^2.3.0",
     "jasmine": "3.4.0",
     "webpack": "4.32.2"
+  },
+  "dependencies": {
+    "npm-check": "^5.9.0"
   }
 }
