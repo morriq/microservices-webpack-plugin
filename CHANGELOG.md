@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/morriq/microservices-webpack-plugin/compare/v2.0.5...v2.1.0) (2019-12-18)
+
+
+### Update
+
+* Replace Object.keys with Object.entries. Update dependencies. (#30) ([942ce3c9761a375c60927825a1bf5556109852c4](https://github.com/morriq/microservices-webpack-plugin/commit/942ce3c9761a375c60927825a1bf5556109852c4)), closes [#30](https://github.com/morriq/microservices-webpack-plugin/issues/30)
+
 ## [2.0.5](https://github.com/morriq/microservices-webpack-plugin/compare/v2.0.4...v2.0.5) (2019-07-02)
 
 
