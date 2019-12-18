@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/morriq/microservices-webpack-plugin/compare/v2.1.0...v2.1.1) (2019-12-18)
+
+
+### Fix
+
+* Stop making assumption that bundle might start with 'define(' (#31) ([d75acb51b7ffc8769ab0f785b1bc5ce4c1fa134a](https://github.com/morriq/microservices-webpack-plugin/commit/d75acb51b7ffc8769ab0f785b1bc5ce4c1fa134a)), closes [#31](https://github.com/morriq/microservices-webpack-plugin/issues/31)
+
 # [2.1.0](https://github.com/morriq/microservices-webpack-plugin/compare/v2.0.5...v2.1.0) (2019-12-18)
 
 
