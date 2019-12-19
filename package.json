@@ -52,8 +52,10 @@
     "conventional-changelog-eslint": "3.0.1",
     "husky": "2.3.0",
     "jasmine": "3.4.0",
-    "npm-check": "5.9.0",
     "object.fromentries": "2.0.2",
     "webpack": "4.32.2"
+  },
+  "dependencies": {
+    "npm-check": "5.9.0"
   }
 }
