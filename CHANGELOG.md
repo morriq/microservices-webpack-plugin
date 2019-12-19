@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/morriq/microservices-webpack-plugin/compare/v2.1.1...v2.1.2) (2019-12-19)
+
+
+### Fix
+
+* Dependency from devdependencies ([c34238ac35c37ebcc26cabe5f527a0efc7d67271](https://github.com/morriq/microservices-webpack-plugin/commit/c34238ac35c37ebcc26cabe5f527a0efc7d67271))
+
 ## [2.1.1](https://github.com/morriq/microservices-webpack-plugin/compare/v2.1.0...v2.1.1) (2019-12-18)
 
 
