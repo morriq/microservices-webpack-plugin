@@ -1,3 +1,14 @@
+# [2.2.0](https://github.com/morriq/microservices-webpack-plugin/compare/v2.1.2...v2.2.0) (2020-08-04)
+
+
+### Update
+
+* Resolve sercurity issues in packages ([75d834b](https://github.com/morriq/microservices-webpack-plugin/commit/75d834b3660b5d81a326fcead4e383a2d93027f3))
+
+### Upgrade
+
+* Bump dependencies ([155b87f](https://github.com/morriq/microservices-webpack-plugin/commit/155b87fec1bbbcc08b8432527d3cf31e00556f09))
+
 ## [2.1.2](https://github.com/morriq/microservices-webpack-plugin/compare/v2.1.1...v2.1.2) (2019-12-19)
 
 
